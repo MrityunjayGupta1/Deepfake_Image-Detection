@@ -6,16 +6,20 @@ This project focuses on detecting deepfake images using Convolutional Neural Net
 
 Dataset:
 
-dataset/
-├── Train/
-│   ├── Real/
-│   └── Fake/
-├── Validation/
-│   ├── Real/
-│   └── Fake/
-└── Test/
-    ├── Real/
-    └── Fake/
+Train: Contains images used to train the CNN model.
+
+Real: Images that are genuine (non-deepfake).
+Fake: Images that are manipulated or synthetic (deepfakes).
+
+Validation: Used to tune the model during training and monitor for overfitting.
+
+Real: Genuine images for validation.
+Fake: Fake images for validation.
+
+Test: Used to evaluate the model after training is complete.
+
+Real: Genuine test images.
+Fake: Fake test images.
 
 
 Model Architecture:
